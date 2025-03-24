@@ -1,5 +1,24 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: #0E7E12;
+}
+
+.tamaño{
+    font-size: 185px;
+}
+
+.tamaño1{
+    font-size: 55px;
+}
+.rotation{
+
+    transform: rotate(0.5turn);
+    font-size: 55px;
+}
+
+.TamañoCarta{
+
+    width: 350px;
+    border-radius: 15%;
 }

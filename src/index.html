@@ -15,21 +15,30 @@
     />
   </head>
   <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-8 pt-5 ">
+          <div class="border   border-dark-subtle TamañoCarta h-150 bg-body " >
+            <div id="simbolo" class ="tamaño1"> </div>
+            <div class="tamaño" id ="NumeroCarta"></div>
+            <div id="simbolo2"  class="rotation"> </div>
+          </div>
+          
+        </div>
+    <div class="col-sm-4 pt-5" ><button type="button" class="btn btn-dark" id="reset">Generar</button>
+    <span id="texto" class="bg-body rounded-pill m-5 w-75 h-5 d-flex flex-column align-items-center" ></span>
+    
+    <div class="bg-light" > Al abrir el sitio web usted tendra una carta aleatoria.
+      Para generar una carta aleatoria presione el boton reset, de no hacerlo cada 3 segundos tendra una carta aleatoria
+   
     </div>
 
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
+    </div>
+
+
+
+
     <script type="module" src="/app.js"></script>
   </body>
 </html>
