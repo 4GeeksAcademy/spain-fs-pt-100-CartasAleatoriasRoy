@@ -1,4 +1,4 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+
 
 body{
     background: #0E7E12;
@@ -21,4 +21,5 @@ body{
 
     width: 350px;
     border-radius: 15%;
+    border-color: black;
 }
