@@ -6,15 +6,20 @@ body{
 
 .tamaño{
     font-size: 185px;
+    
 }
 
 .tamaño1{
     font-size: 55px;
+    display: flex;
+    margin: 5px;
 }
 .rotation{
 
     transform: rotate(0.5turn);
     font-size: 55px;
+    display: flex;
+    margin: 5px;
 }
 
 .TamañoCarta{
